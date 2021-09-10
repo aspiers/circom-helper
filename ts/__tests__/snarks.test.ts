@@ -1,11 +1,8 @@
 jest.setTimeout(90000)
 const Koa = require('koa')
-import axios from 'axios'
 import * as path from 'path'
 import * as fs from 'fs'
 import * as childProcess from 'child_process'
-import * as JsonRpc from '../server/jsonRpc'
-import * as errors from '../server/errors'
 const ff = require('ffjavascript')
 const stringifyBigInts = ff.utils.stringifyBigInts
 import { run } from '../'
